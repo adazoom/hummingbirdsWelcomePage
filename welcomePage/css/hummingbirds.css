@@ -362,14 +362,14 @@ body {
     margin: 0 0 15px;
 }
 
-#portfolio .portfolio-item .portfolio-link {
+#portfolio .portfolio-item {
     display: block;
     position: relative;
     margin: 0 auto;
     max-width: 400px;
 }
 
-#portfolio .portfolio-item .portfolio-link .caption {
+#portfolio .portfolio-item {
     position: absolute;
     width: 100%;
     height: 100%;
@@ -380,11 +380,11 @@ body {
     transition: all ease .5s;
 }
 
-#portfolio .portfolio-item .portfolio-link .caption:hover {
+#portfolio .portfolio-item:hover {
     opacity: 1;
 }
 
-#portfolio .portfolio-item .portfolio-link .caption .caption-content {
+#portfolio .portfolio-item .caption-content {
     position: absolute;
     top: 50%;
     width: 100%;
@@ -395,14 +395,10 @@ body {
     color: #9456b6;
 }
 
-#portfolio .portfolio-item .portfolio-link .caption .caption-content i {
+#portfolio .portfolio-item .caption-content i {
     margin-top: -12px;
 }
 
-#portfolio .portfolio-item .portfolio-link .caption .caption-content h3,
-#portfolio .portfolio-item .portfolio-link .caption .caption-content h4 {
-    margin: 0;
-}
 
 #portfolio * {
     z-index: 2;
